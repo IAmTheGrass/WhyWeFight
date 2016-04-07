@@ -1,0 +1,119 @@
+<p>Because we fails to understand relationships that are important to us?</p>
+<div id="step2Object"> <p>Liveing Thing</p></div>
+<table>
+	<tbody>
+		<% 3.times do |y| %>
+			<tr>
+				<th><div>Box</div></th>
+				<% 8.times do |x| %>
+				<th id="l<%= y %><%= x %>", class="land", tracker="#"><div>Drop</div></th>
+				<% end %>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+<br>
+<div id="step2Object"> <p>Reasons</p></div>
+<table>
+	<tbody>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+	</tbody>
+</table>
+<br>
+<div id="step2Object"> <p>OutComes</p></div>
+<table>
+	<tbody>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+	</tbody>
+</table>
+<br>
+<div id="step2Object"> <p>Struggle</p></div>
+<table>
+	<tbody>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+		<tr>
+			<th><div>Box</div></th>
+			<% 8.times do |x| %>
+			<th class="land"><div>Drop</div></th>
+			<% end %>
+		</tr>
+	</tbody>
+</table>
+<div id="done2", class="push" ><p>Click When Done</p></div>
+<div id="endDisplay"><%= render "step2s/new"%></div>
+<div id="float">
+	<p>Drag Me</p>
+	<table>
+		<tbody>
+			<tr>
+				<th id="has_one", class="peice">has_one</th>
+				<th id=":outcome", class="peice">:outcome</th>
+			</tr>
+			<tr>
+				<th id="belongs_to", class="peice">belongs_to</th>
+				<th id="reason", class="peice">:reason</th>
+			</tr>
+			<tr>
+				<th id="has_many", class="peice">has_many</th>
+				<th id=":liveingthings", class="peice">:liveingthing</th>
+			</tr>
+			<tr>
+				<th id="HAB2M", class="peice">HAB2M</th>
+				<th id=":struggle", class="peice">:struggle</th>
+			</tr>
+			<tr>
+				<th id="through:", class="peice">through:</th>
+				<th id="_", class="peice"></th>
+			</tr>
+			<tr>
+				<th id=",", class="peice">,</th>
+				<th id="s", class="peice">s</th>
+			</tr>
+		</tbody>
+	</table>
+</div>

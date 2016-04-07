@@ -1,0 +1,12 @@
+<div>
+<%= @divVar %>
+<%= form_for (@step3), :remote => true do |f| %>
+	<%= f.hidden_field :e1, :id => "hiddend31" %>
+	<%= f.hidden_field :e2, :id => "hiddend32" %>
+	<%= f.hidden_field :e3, :id => "hiddend33" %>
+ 	<%= f.submit "Bam!!!" %>
+<% end %>
+</div>
+
+<div id="tryCall3", class="push">Connect Input For Save</div>
+<div id="loadStep1", class="push">Move On To Step 1</div>
